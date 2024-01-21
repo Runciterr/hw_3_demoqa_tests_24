@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="guru.qa.SimpleJUnitTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-01-21T18:22:50" hostname="MacBook-Air-Runciter.local" time="0.008">
+  <properties/>
+  <testcase name="firstTest()" classname="guru.qa.SimpleJUnitTest" time="0.006"/>
+  <testcase name="secondTest()" classname="guru.qa.SimpleJUnitTest" time="0.001"/>
+  <system-out><![CDATA[
+
+###   @BeforeAll
+
+###         @BeforeEach
+###                 @Test firstTest
+###         @AfterEach
+
+###         @BeforeEach
+###                 @Test secondTest
+###         @AfterEach
+
+###   @AfterAll
+
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
